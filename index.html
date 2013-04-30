@@ -1,35 +1,46 @@
 <!DOCTYPE html>
 <html>
+
   <head>
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta charset='utf-8' />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <meta name="description" content="Pims-look : It's PIMS o'clock" />
 
-    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen" />
-    <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen" />
-    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print" />
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
 
-    <title>Pims-look by rob-work</title>
+    <title>Pims-look</title>
   </head>
 
   <body>
 
-    <header>
-      <div class="container">
-        <h1>Pims-look</h1>
-        <h2>It's PIMS o'clock</h2>
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/rob-work/PIMS-look">View on GitHub</a>
 
-        <section id="downloads">
-          <a href="https://github.com/rob-work/PIMS-look/zipball/master" class="btn">Download as .zip</a>
-          <a href="https://github.com/rob-work/PIMS-look/tarball/master" class="btn">Download as .tar.gz</a>
-          <a href="https://github.com/rob-work/PIMS-look" class="btn btn-github"><span class="icon"></span>View on GitHub</a>
-        </section>
-      </div>
-    </header>
+          <h1 id="project_title">Pims-look</h1>
+          <h2 id="project_tagline">It's PIMS o'clock</h2>
 
-    <div class="container">
-      <section id="main_content">
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/rob-work/PIMS-look/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/rob-work/PIMS-look/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
         <p>PIMS now exposes its most signifcant data through a RESTful API using the HTTP protocol for read (GET), write (POST) and update (PUT).  Data read from PIMS is returned in XML format by default, but can also be retrieved in JSON format by appending "=json" to the end of each API call.  Write and update functions require data to be passed in XML format only (there is no JSON option).</p>
       </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">Pims-look maintained by <a href="https://github.com/rob-work">rob-work</a></p>
+        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+      </footer>
     </div>
 
               <script type="text/javascript">
@@ -42,6 +53,7 @@
             pageTracker._trackPageview();
             } catch(err) {}
           </script>
+
 
   </body>
 </html>
